@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CalvinPC\\Desktop\\template\\template\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB72718D-916C-4C3F-B042-715C6BF6FF61}|template\\template.csproj|c:\\users\\calvinpc\\desktop\\template\\template\\template\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB72718D-916C-4C3F-B042-715C6BF6FF61}|template\\template.csproj|solutionrelative:template\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\template\\template\\template\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "template\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\template\\template\\template\\MainWindow.xaml.cs",
+              "RelativeToolTip": "template\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T00:34:14.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
