@@ -5,3 +5,6 @@
 *.bin
 *.v2
 *.vsidx
+*.db
+*.suo
+*.json
