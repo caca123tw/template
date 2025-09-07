@@ -130,4 +130,12 @@
     <value></value>
     <comment>Set Up</comment>
   </data>
+  <data name="PassWordWrong" xml:space="preserve">
+    <value></value>
+    <comment>Wrong Password</comment>
+  </data>
+  <data name="PassWordNull" xml:space="preserve">
+    <value></value>
+    <comment>Null Password</comment>
+  </data>
 </root>

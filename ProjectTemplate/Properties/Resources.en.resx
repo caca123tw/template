@@ -129,4 +129,10 @@
   <data name="Func1" xml:space="preserve">
     <value>Func1</value>
   </data>
+  <data name="PassWordWrong" xml:space="preserve">
+    <value>Wrong Password</value>
+  </data>
+  <data name="PassWordNull" xml:space="preserve">
+    <value>Null Password</value>
+  </data>
 </root>

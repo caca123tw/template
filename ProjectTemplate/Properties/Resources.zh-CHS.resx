@@ -129,4 +129,10 @@
   <data name="SetUp" xml:space="preserve">
     <value>設定</value>
   </data>
+  <data name="PassWordWrong" xml:space="preserve">
+    <value>密碼錯誤</value>
+  </data>
+  <data name="PassWordNull" xml:space="preserve">
+    <value>密碼未輸入</value>
+  </data>
 </root>

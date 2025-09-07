@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MaterialDesignColors;
+using MaterialDesignThemes.Wpf;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
@@ -8,6 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using System.Windows;
 
 namespace ProjectTemplate
 {
@@ -49,6 +52,26 @@ namespace ProjectTemplate
             // 通知：索引子(Item[]) 有變、全部會重取
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Item[]"));
 
+        }
+    }
+    public static class ThemeManager
+    {
+        public static void SetPrimary(PrimaryColor color)
+        {
+            if (Application.Current.Resources.MergedDictionaries
+                .FirstOrDefault(d => d is BundledTheme) is BundledTheme theme)
+            {
+                theme.PrimaryColor = color;
+            }
+        }
+
+        public static void SetBase(BaseTheme baseTheme)
+        {
+            if (Application.Current.Resources.MergedDictionaries
+                .FirstOrDefault(d => d is BundledTheme) is BundledTheme theme)
+            {
+                theme.BaseTheme = baseTheme;
+            }
         }
     }
 }

@@ -1,19 +1,45 @@
-﻿using System;
+﻿using MaterialDesignColors;
+using MaterialDesignThemes.Wpf;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Configuration;
 using System.Globalization;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
 
 namespace ProjectTemplate
 {
     public class MainVM: CommendPropertyNeed
     {
+        private bool _isEngineerMode;
+
+        public bool isEngineerMode
+        {
+            get { return _isEngineerMode; }
+            set
+            {
+                if (_isEngineerMode != value)   // 避免重複觸發
+                {
+                    _isEngineerMode = value;
+                    OnPropertyChanged(); // 通知綁定的 UI 更新
+                }
+            }
+        }
+
+        private PassWordWindow _aPassWordWindow;
+
+        public PassWordWindow aPassWordWindow
+        {
+            get { return _aPassWordWindow; }
+            set { _aPassWordWindow = value; }
+        }
 
         private ObservableCollection<string> _Items;
         public ObservableCollection<string> Items
@@ -84,6 +110,36 @@ namespace ProjectTemplate
                 if (_SetUpName != value)   // 避免重複觸發
                 {
                     _SetUpName = value;
+                    OnPropertyChanged(); // 通知綁定的 UI 更新
+                }
+            }
+        }
+
+        private string _PassWordWrong;
+
+        public string PassWordWrong
+        {
+            get { return _PassWordWrong; }
+            set
+            {
+                if (_PassWordWrong != value)   // 避免重複觸發
+                {
+                    _PassWordWrong = value;
+                    OnPropertyChanged(); // 通知綁定的 UI 更新
+                }
+            }
+        }
+
+        private string _PassWordNull;
+
+        public string PassWordNull
+        {
+            get { return _PassWordNull; }
+            set
+            {
+                if (_PassWordNull != value)   // 避免重複觸發
+                {
+                    _PassWordNull = value;
                     OnPropertyChanged(); // 通知綁定的 UI 更新
                 }
             }
@@ -224,6 +280,26 @@ namespace ProjectTemplate
         }
         private void OnEngineerOnOff()
         {
+            if (!isEngineerMode)
+            {
+                _aPassWordWindow = new PassWordWindow();
+                bool? dialogResult = aPassWordWindow.ShowDialog();
+                if (dialogResult == true)
+                {
+                    if (!isEngineerMode)
+                    {
+                        isEngineerMode = !isEngineerMode;
+                        ThemeManager.SetPrimary(PrimaryColor.Red);
+                    }
+                    else
+                        ThemeManager.SetPrimary(PrimaryColor.Blue);
+                }
+            }
+            else
+            {
+                isEngineerMode = false;
+                ThemeManager.SetPrimary(PrimaryColor.Blue);
+            }
         }
         private bool DoEngineerOnOff_CanExecute()
         {
@@ -231,7 +307,9 @@ namespace ProjectTemplate
         }
         public MainVM()
         {
+            isEngineerMode = false;
             ChangeLanguage();
+            ThemeManager.SetPrimary(PrimaryColor.Blue);
         }
 
         private void ChangeLanguage()
@@ -240,6 +318,9 @@ namespace ProjectTemplate
             Func1Name = Properties.Resources.Func1;
             Func2Name = Properties.Resources.Func2;
             SetUpName = Properties.Resources.SetUp;
+            PassWordWrong = Properties.Resources.PassWordWrong;
+            PassWordNull = Properties.Resources.PassWordNull;
         }
+
     }
 }

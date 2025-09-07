@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|c:\\users\\calvinpc\\desktop\\projecttemplate\\projecttemplate\\resource\\commendpropertyneed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\resource\\commendpropertyneed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|c:\\users\\calvinpc\\desktop\\projecttemplate\\projecttemplate\\passwordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\passwordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|c:\\users\\calvinpc\\desktop\\projecttemplate\\projecttemplate\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\projecttemplate\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|c:\\users\\calvinpc\\desktop\\projecttemplate\\projecttemplate\\passwordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\passwordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|c:\\users\\calvinpc\\desktop\\projecttemplate\\projecttemplate\\resource\\commendpropertyneed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\resource\\commendpropertyneed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|c:\\users\\calvinpc\\desktop\\projecttemplate\\projecttemplate\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\projecttemplate\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|c:\\users\\calvinpc\\desktop\\projecttemplate\\projecttemplate\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +29,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\projecttemplate\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\projecttemplate\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|c:\\users\\calvinpc\\desktop\\projecttemplate\\projecttemplate\\passwordwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\passwordwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\projecttemplate\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|c:\\users\\calvinpc\\desktop\\projecttemplate\\projecttemplate\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3BFB38D1-90CC-44F7-A412-6F65F61A4285}|ProjectTemplate\\ProjectTemplate.csproj|solutionrelative:projecttemplate\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +54,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommendPropertyNeed.cs",
+              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\Resource\\CommendPropertyNeed.cs",
+              "RelativeDocumentMoniker": "ProjectTemplate\\Resource\\CommendPropertyNeed.cs",
+              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\Resource\\CommendPropertyNeed.cs",
+              "RelativeToolTip": "ProjectTemplate\\Resource\\CommendPropertyNeed.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T04:57:16.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\App.config",
+              "RelativeDocumentMoniker": "ProjectTemplate\\App.config",
+              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\App.config",
+              "RelativeToolTip": "ProjectTemplate\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-04T04:47:55.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainVM.cs",
+              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\MainVM.cs",
+              "RelativeDocumentMoniker": "ProjectTemplate\\MainVM.cs",
+              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\MainVM.cs*",
+              "RelativeToolTip": "ProjectTemplate\\MainVM.cs*",
+              "ViewState": "AgIAABYBAAAAAAAAAAAiwB4BAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T04:45:42.36Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -55,7 +110,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "PassWordWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\PassWordWindow.xaml",
+              "RelativeDocumentMoniker": "ProjectTemplate\\PassWordWindow.xaml",
+              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\PassWordWindow.xaml",
+              "RelativeToolTip": "ProjectTemplate\\PassWordWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-07T12:58:35.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PassWordWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\PassWordWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectTemplate\\PassWordWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\PassWordWindow.xaml.cs*",
+              "RelativeToolTip": "ProjectTemplate\\PassWordWindow.xaml.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAtwBkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T12:49:10.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\App.xaml",
               "RelativeDocumentMoniker": "ProjectTemplate\\App.xaml",
@@ -67,54 +147,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CommendPropertyNeed.cs",
-              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\Resource\\CommendPropertyNeed.cs",
-              "RelativeDocumentMoniker": "ProjectTemplate\\Resource\\CommendPropertyNeed.cs",
-              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\Resource\\CommendPropertyNeed.cs*",
-              "RelativeToolTip": "ProjectTemplate\\Resource\\CommendPropertyNeed.cs*",
-              "ViewState": "AgIAABYAAAAAAAAAAAAuwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T04:57:16.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\App.config",
-              "RelativeDocumentMoniker": "ProjectTemplate\\App.config",
-              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\App.config",
-              "RelativeToolTip": "ProjectTemplate\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-09-04T04:47:55.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainVM.cs",
-              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\MainVM.cs",
-              "RelativeDocumentMoniker": "ProjectTemplate\\MainVM.cs",
-              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\MainVM.cs",
-              "RelativeToolTip": "ProjectTemplate\\MainVM.cs",
-              "ViewState": "AgIAANQAAAAAAAAAAAAYwOkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T04:45:42.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProjectTemplate\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\MainWindow.xaml.cs",
               "RelativeToolTip": "ProjectTemplate\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T04:43:40.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProjectTemplate\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\MainWindow.xaml",
+              "RelativeToolTip": "ProjectTemplate\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-04T04:43:41.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\packages.config",
+              "RelativeDocumentMoniker": "ProjectTemplate\\packages.config",
+              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\packages.config",
+              "RelativeToolTip": "ProjectTemplate\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-07T11:57:24.363Z",
               "EditorCaption": ""
             }
           ]
@@ -125,12 +191,12 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "2fd3e116-e487-4d9b-a2df-b734a960cd4d",
-        "Display": 0,
-        "X": -326,
-        "Y": 701,
-        "Width": 1528,
-        "Height": 792,
+        "Id": "d06671f2-386f-47ed-8650-323543e8dd57",
+        "Display": 1,
+        "X": 524,
+        "Y": 310,
+        "Width": 800,
+        "Height": 600,
         "WindowState": 0
       },
       "DocumentGroups": [
@@ -140,14 +206,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ProjectTemplate\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\MainWindow.xaml",
-              "RelativeToolTip": "ProjectTemplate\\MainWindow.xaml",
+              "DocumentIndex": 8,
+              "Title": "PassWordWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\PassWordWindow.xaml",
+              "RelativeDocumentMoniker": "ProjectTemplate\\PassWordWindow.xaml",
+              "ToolTip": "C:\\Users\\CalvinPC\\Desktop\\projectTemplate\\ProjectTemplate\\PassWordWindow.xaml",
+              "RelativeToolTip": "ProjectTemplate\\PassWordWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-04T04:43:41.135Z",
+              "WhenOpened": "2025-09-07T12:58:30.459Z",
               "EditorCaption": ""
             }
           ]

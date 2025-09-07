@@ -90,6 +90,24 @@ namespace ProjectTemplate.Properties {
         /// <summary>
         ///   查詢類似  的當地語系化字串。
         /// </summary>
+        internal static string PassWordNull {
+            get {
+                return ResourceManager.GetString("PassWordNull", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似  的當地語系化字串。
+        /// </summary>
+        internal static string PassWordWrong {
+            get {
+                return ResourceManager.GetString("PassWordWrong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似  的當地語系化字串。
+        /// </summary>
         internal static string SetUp {
             get {
                 return ResourceManager.GetString("SetUp", resourceCulture);
