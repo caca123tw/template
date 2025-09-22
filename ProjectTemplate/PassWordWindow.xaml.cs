@@ -15,6 +15,21 @@ using System.Configuration;
 
 namespace ProjectTemplate
 {
+    public class ShowPassWordResult
+    {
+        public void ShowPassWorldWrong(ErrorCode WrongProblem)
+        {
+            if (WrongProblem == ErrorCode.PassWordWrong)
+            {
+                MessageBox.Show(Properties.Resources.PassWordWrong);
+            }
+            else if (WrongProblem == ErrorCode.PassWordNull)
+            {
+                MessageBox.Show(Properties.Resources.PassWordNull);
+            }
+        }
+    }
+
     /// <summary>
     /// Window1.xaml 的互動邏輯
     /// </summary>
@@ -24,6 +39,9 @@ namespace ProjectTemplate
         {
             InitializeComponent();
             PassWordInput.Focus();
+            
+            ShowPassWordResult showPassWordResult = new ShowPassWordResult();
+            MainVM.ErrorPublisher.aMessage += showPassWordResult.ShowPassWorldWrong;
         }
 
         private void OK_Press(object sender, RoutedEventArgs e)
@@ -35,15 +53,16 @@ namespace ProjectTemplate
             }
             else
             {
-                MessageBox.Show(Properties.Resources.PassWordWrong);
+                MainVM.ErrorPublisher.ShowMessage(ErrorCode.PassWordWrong);
                 this.DialogResult = false;
             }
         }
 
         private void Cancel_Press(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(Properties.Resources.PassWordNull);
+            MainVM.ErrorPublisher.ShowMessage(ErrorCode.PassWordNull);
             this.DialogResult = false;
         }
+
     }
 }

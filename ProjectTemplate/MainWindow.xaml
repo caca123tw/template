@@ -33,55 +33,94 @@
                 <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding AppName}" Foreground="White" FontSize="40"/>
             </materialDesign:Card>
             <Border Grid.Row="0" Grid.Column="2" Margin="5">
-                <materialDesign:PopupBox 
-                HorizontalAlignment="Right"
-                VerticalAlignment="Bottom"
-                Padding="2,0,2,0">
+                <materialDesign:PopupBox x:Name="MenuPopupbox"
+                         HorizontalAlignment="Right"
+                         VerticalAlignment="Bottom"
+                         Padding="0"
+                         StaysOpen="True">
+
+                    <!-- 自訂這個 PopupBox 內部用到的樣式 -->
+                    <materialDesign:PopupBox.Resources>
+                        <!-- 左側圖示 + 文字 的輕量「選單按鈕」 -->
+                        <Style x:Key="MenuItemButton" TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatButton}">
+                            <Setter Property="Margin" Value="0,4"/>
+                            <Setter Property="Padding" Value="12,8"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="materialDesign:ButtonAssist.CornerRadius" Value="8"/>
+                        </Style>
+
+                        <!-- Expander 標頭風格 -->
+                        <Style TargetType="Expander" BasedOn="{StaticResource {x:Type Expander}}">
+                            <Setter Property="FontSize" Value="16"/>
+                            <Setter Property="Padding" Value="0"/>
+                            <Setter Property="Margin" Value="0,4,0,0"/>
+                        </Style>
+                    </materialDesign:PopupBox.Resources>
+
+                    <!-- 觸發區 -->
                     <materialDesign:PopupBox.ToggleContent>
-                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                            <materialDesign:PackIcon Kind="Menu"
-                                     Width="30" Height="30"
-                                     VerticalAlignment="Center"
-                                     Margin="5"/>
-                            <TextBlock Text="Menu" VerticalAlignment="Center"/>
-                        </StackPanel>
+                        <Border Padding="10,6" CornerRadius="10" Background="{DynamicResource MaterialDesignPaper}">
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <materialDesign:PackIcon Kind="Menu" Width="22" Height="22" VerticalAlignment="Center" />
+                                <TextBlock Text="Menu" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Border>
                     </materialDesign:PopupBox.ToggleContent>
 
-                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left">
-                        <Button Style="{StaticResource MaterialDesignOutlinedButton}" Command="{Binding Change2Eng}">
-                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
-                                <!-- 地球圖示 -->
-                                <materialDesign:PackIcon Kind="AlphaW" 
-                                         Width="20" Height="20" 
-                                         VerticalAlignment="Center" 
-                                         Margin="0,0,8,0"/>
-                                <!-- 文字 -->
-                                <TextBlock Text="English" VerticalAlignment="Center"/>
+                    <!-- 內容：用 Card 當背景 + 留白 -->
+                    <materialDesign:PopupBox.PopupContent>
+                        <materialDesign:Card Padding="12"
+                             Background="{DynamicResource MaterialDesignPaper}"
+                             materialDesign:ColorZoneAssist.Mode="PrimaryMid"
+                             MinWidth="220">
+                            <StackPanel>
+
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    <!-- 語言 Expander -->
+                                    <materialDesign:PackIcon Kind="Earth" Width="22" Height="22" VerticalAlignment="Top" Margin="0,18,0,0"/>
+                                    <Expander Header="Language" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Center"  IsExpanded="False">
+                                        <StackPanel>
+                                            <Button Style="{StaticResource MenuItemButton}"
+                                                    Command="{Binding Change2Eng}"
+                                                    CommandParameter="en"
+                                                    Click="MenuPopupboxClose_Click"
+                                                    Height="40">
+                                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                    <materialDesign:PackIcon Kind="AlphabeticalVariant" Width="50" Height="25" Opacity="0.8"/>
+                                                    <TextBlock Text="English" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                                </StackPanel>
+                                            </Button>
+
+                                            <Button Style="{StaticResource MenuItemButton}"
+                                                    Command="{Binding Change2Chin}"
+                                                    CommandParameter="zh-TW"
+                                                    Click="MenuPopupboxClose_Click"
+                                                    Height="40">
+                                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                    <materialDesign:PackIcon Kind="IdeogramCjkVariant" Width="50" Height="25" Opacity="0.8"/>
+                                                    <TextBlock Text="中文" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                                </StackPanel>
+                                            </Button>
+                                        </StackPanel>
+                                    </Expander>
+
+                                </StackPanel>
+                                <Separator Margin="0,6"/>
+
+                                <!-- Engineer Mode -->
+                                <Button Style="{StaticResource MenuItemButton}"
+                                        Command="{Binding EngineerOnOff}"
+                                        Click="MenuPopupboxClose_Click"
+                                        Height="40">
+                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                        <materialDesign:PackIcon Kind="AccountCog" Width="36" Height="18" Opacity="0.8"/>
+                                        <TextBlock Text="Engineer Mode" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </StackPanel>
+                                </Button>
                             </StackPanel>
-                        </Button>
-                        <Button Style="{StaticResource MaterialDesignOutlinedButton}" Command="{Binding Change2Chin}">
-                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
-                                <!-- 地球圖示 -->
-                                <materialDesign:PackIcon Kind="IdeogramCjk" 
-                                         Width="20" Height="20" 
-                                         VerticalAlignment="Center" 
-                                         Margin="0,0,8,0"/>
-                                <!-- 文字 -->
-                                <TextBlock Text="中文" VerticalAlignment="Center"/>
-                            </StackPanel>
-                        </Button>
-                        <Button Style="{StaticResource MaterialDesignOutlinedButton}"  Command="{Binding EngineerOnOff}">
-                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
-                                <!-- 地球圖示 -->
-                                <materialDesign:PackIcon Kind="AccountCheck" 
-                                         Width="20" Height="20" 
-                                         VerticalAlignment="Center" 
-                                         Margin="0,0,8,0"/>
-                                <!-- 文字 -->
-                                <TextBlock Text="Engineer Mode" VerticalAlignment="Center"/>
-                            </StackPanel>
-                        </Button>
-                    </StackPanel>
+                        </materialDesign:Card>
+                    </materialDesign:PopupBox.PopupContent>
                 </materialDesign:PopupBox>
             </Border>
             <StackPanel Grid.Row="1"  Grid.Column="0">

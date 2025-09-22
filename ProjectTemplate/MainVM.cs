@@ -18,6 +18,8 @@ namespace ProjectTemplate
 {
     public class MainVM: CommendPropertyNeed
     {
+        public static Publisher ErrorPublisher;
+
         private bool _isEngineerMode;
 
         public bool isEngineerMode
@@ -310,6 +312,7 @@ namespace ProjectTemplate
             isEngineerMode = false;
             ChangeLanguage();
             ThemeManager.SetPrimary(PrimaryColor.Blue);
+            ErrorPublisher = new Publisher();
         }
 
         private void ChangeLanguage()

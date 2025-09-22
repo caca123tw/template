@@ -28,6 +28,10 @@ namespace ProjectTemplate
             aMainVM= new MainVM();
             this.DataContext = aMainVM;
         }
-        
+
+        private void MenuPopupboxClose_Click(object sender, RoutedEventArgs e)
+        {
+            MenuPopupbox.IsPopupOpen = false;
+        }
     }
 }
